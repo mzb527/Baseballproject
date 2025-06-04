@@ -8,6 +8,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
+        <Route path="/player/:playerId" element={<PlayerDetailPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/watchlist" element={<WatchlistPage />} />
