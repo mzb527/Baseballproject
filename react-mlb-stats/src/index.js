@@ -14,3 +14,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </AuthProvider>
 );
+import { WatchlistProvider } from "./context/WatchlistContext";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <WatchlistProvider>
+    <App />
+  </WatchlistProvider>
+);
